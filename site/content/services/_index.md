@@ -1,43 +1,40 @@
 ---
 title: Our Services
-type: products
-image: /img/products-jumbotron.jpg
+type: services
+image: /img/banner/fruit.webp
 intro:
   heading: What we offer
   description: >-
     Dr. Amie Gregory, DC, CCEP, ANF offers varied services because not every service works for everyone.  She specializes in gentle, specific adjusting ("spinal manipulation"). Her methods are safe, comfortable and highly effective
   blurbs:
-    - image: /img/illustrations-coffee.svg
-      akt: 
+    - image: anf.webp
+      alt: 
       texttitle: Amino Neuro Frequency Therapy
       text: >
         Amino Neuro Frequency Therapy (ANF) is a revolutionary holistic approach to pain, inflammation and dis-ease in the body following nerve paths and systems to find the root cause of a problem and activate the body’s defense system to help with healing.
       link: #
-    - image: /img/car_accident.webp
+    - image: car_accident.webp
       texttitle: Car accident rehabilitation
-      akt: Man next to car on side of the road with a flare
+      alt: Man next to car on side of the road with a flare
       text: >
-        There are many benefits to getting chiropractic care after a car accident. When it comes to injuries after a car accident, time is of the essence. Permanent damage can occur and scar tissue can develop very quickly without proper treatment in as little as 48 hours.  Sometimes you may not feel the symptoms right away because of the shock of the accident but when they come, they are often severely painful.
+        When it comes to injuries after a car accident, time treatment is of the essence. Permanent damage can occur and scar tissue can develop very quickly; in as little as 48 hours. You may not feel the symptoms right away, especially with the shock of the accident. Get the benefits of early chiropractic care after a car accident rather than wait until you experience severe pain!
       link: /car-accident-rehabilitation
-    - image: /img/illustrations-tutorials.svg
-      akt: 
-      texttitle: a
+    - image: skeleton_soccer.webp
+      alt: Cartoon of an X-ray, full skeleton kicking a ball
+      texttitle: Injury and Extremity Care
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        As a certified Chiropractic Extremity Practitioner and Sports Chiropractor, Dr. Gregory works on every moving part, from the spine to your shoulders, knees, and toes, making sure your whole body is balanced and working together harmoniously as a unit.
       link: #
-    - image: /img/illustrations-meeting-space.svg
-      akt: 
-      texttitle: a
+    - image: pregnant.webp
+      alt: Bulging belly of pregant person
+      texttitle: Pregnancy Care
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Specializing in the Webster technique to alleviate low back pain, ease comfort during pregnancy and delivery, and even help turn breech babies to the normal position (even twins!).
+    - image: fruit.webp
+      alt: Bowl of fruit and vegetable
+      texttitle: Nutrition
+      text: >
+        Better food choices and natural, organic supplements may be needed for better overall health. We provide Nutritional Response Testing℠ for existing patients, once we have gotten your structure and movement back to the way it should be.
 main:
   heading: Great coffee with no compromises
   description: >
@@ -55,11 +52,10 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: K. G. Union City
     quote: >-
-      The first time I tried PreciseMoves’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      I'm working with Dr Amie to move with ease and return my health and body to optimum performance. I'm pleasantly pleased with innovative approach to health. I've recently begun the ANF process and love how my body responds to being energized.Highly recommend!!!
+  - author: C. L., San Carlos
     quote: >-
       PreciseMoves is the place to go if you want the best quality coffee. I love their
       stance on empowering farmers and transparency.

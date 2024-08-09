@@ -86,3 +86,16 @@
 
 /* Uncomment out the line below to help debug layout issues */
 /*@use './imports/_debug';*/
+
+/* custom css */
+
+/* page dividers */
+@use './imports/_body';
+@use './imports/_nav';
+@use './imports/_banner';
+@use './imports/_footer';
+
+/* partials */
+
+@use './imports/_blurbs';
+

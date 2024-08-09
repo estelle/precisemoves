@@ -1,0 +1,42 @@
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ededed;
+    border-bottom: 1px solid orangered;
+    a {
+        text-decoration: none;
+    }
+    > a {
+        padding: 8px;
+        color: darkgreen;
+        text-transform: uppercase;
+        span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        img {
+            width: 60px;
+            max-width: 8vw;
+            vertical-align: middle;
+        }
+    }
+    > ul {
+        display: flex;
+        a {
+            font-weight: bold;
+        }
+    }
+    ul {
+        padding: 1em 8px;
+        a {
+            padding: var(--spacing-medium);
+            text-decoration: none;
+            &:hover {
+                text-decoration: orangered underline 2px;
+                background-color: #efefef;
+            }
+        }
+    }
+}

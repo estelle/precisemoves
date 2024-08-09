@@ -1,50 +1,45 @@
-<footer class="bg-black ph3 pv4 white">
+<div>
 
-	<div class="mw7 center pt3">
+	<img src="/img/pmc.png" alt="Precise Moves Chiropractic" class="db w4 center mb4 br0">
+	<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>
+	<p>{{ .Site.Data.footer.blurb }}</p>
 
-		<div class="measure-narrow center mb4">
+	{{ partial "newsletter-form" . }}
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>
-			<p>{{ .Site.Data.footer.blurb }}</p>
+</div>
 
-			{{ partial "newsletter-form" . }}
+<nav>
 
-		</div>
-
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule an appointment</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter" "alt" "Kaldi on Twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram" "alt" "Kaldi on Instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo" "alt" "Kaldi on Vimeo") }}
-				</ul>
-			</div>
-
-		</div>
+	<div>
+		<h3>Precise Moves</h3>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/products">Our products</a></li>
+			<li><a href="/values">About</a></li>
+			<li><a href="/post">Blog</a></li>
+			<li><a href="/contact">Contact</a></li>
+		</ul>
 	</div>
 
-</footer>
+	<div>
+		<h3>Find out more</h3>
+		<ul>
+			<li><a href="/post/jamaica-blue/">Latest offers</a></li>
+			<li><a href="https://www.schedulicity.com/scheduling/PMCPD3P">Schedule an appointment</a></li>
+		</ul>
+	</div>
 
+	<div class="socials">
+		<h3>Social media</h3>
+		<ul>
+			{{ partial "social-icon" (dict "link" "https://www.facebook.com/precisemoves/" "svg" "icons-facebook" "alt" "Precise Moves on Facebook") }}
+			{{ partial "social-icon" (dict "link" "https://twitter.com/precisemoves" "svg" "icons-twitter" "alt" "Precise Moves on Twitter") }}
+			{{ partial "social-icon" (dict "link" "https://www.instagram.com/PreciseMoves/" "svg" "icons-instagram" "alt" "Precise Moves on Instagram") }}
+			{{ partial "social-icon" (dict "link" "https://www.yelp.com/biz/precise-moves-chiropractic-san-francisco-2" "svg" "icons-vimeo" "alt" "Precise Moves on Yelp") }}
+		</ul>
+	</div>
+</nav>
+
+<p> 3150 18th Street, Suite 334, San Francisco, CA 94110 &bullet;
+	(415) 583-4221  &bullet;
+	Copyright &copy; 2024</p>

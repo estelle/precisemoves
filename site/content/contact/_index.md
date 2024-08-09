@@ -1,19 +1,24 @@
 ---
 title: "Contact"
-logo: "/img/logo.svg"
+logo: "/img/pmc.png"
 contact_entries:
   - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
+    text: "3150 18th Street, Suite 334
+           San Francisco, CA 94110"
+  - heading: Phone
+    text: (415) 583-4221
   - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+    text: "Monday – Saturday, by appointment only"
 ---
 
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
+Our office is open during business hours Monday through Saturday, but our scheduler is available 24 hours a day. 
 
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
+{{< appointmentbutton text="Make an appointment" type="btn-primary" >}}
 
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
+## Get in touch
+
+If you need to speak to us directly, our phone number is listed below.
+
+For questions, comments, or kudos that are not time sensitive, use the form below.
+
+Don’t be shy, drop us a line!

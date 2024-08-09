@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width:  100vw;
+}
+h1, h2, h3 {
+    line-height: 1.25;
+    font-weight: bold;
+}
+.btn-primary {
+    padding: 3px 8px;
+    background-color: var(--primary);
+    color: var(--white);
+    text-decoration: none;
+    &:hover {
+        background-color: var(--primaryhover);
+        color: var(--white);
+        text-decoration: underline 1px var(--primary);
+        text-underline-offset: 3px;
+    }
+}
