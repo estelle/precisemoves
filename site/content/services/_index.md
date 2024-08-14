@@ -5,8 +5,31 @@ image: /img/banner/fruit.webp
 intro:
   heading: What we offer
   description: >-
-    Dr. Amie Gregory, DC, CCEP, ANF offers varied services because not every service works for everyone.  She specializes in gentle, specific adjusting ("spinal manipulation"). Her methods are safe, comfortable and highly effective
+    Dr. Amie Gregory, DC, CCEP, ANF, specializes in gentle, specific adjusting ("spinal manipulation. Dr. Gregory offers varied services because not every service works for everyone!  All of her methods are safe, comfortable and highly effective.
   blurbs:
+    - image: skeleton_soccer.webp
+      alt: Cartoon of an X-ray, full skeleton kicking a ball
+      texttitle: Injury and Extremity Care
+      text: >
+        As a certified Chiropractic Extremity Practitioner and Sports Chiropractor, Dr. Gregory works on every moving part, from the spine to your shoulders, knees, and toes, making sure your whole body is balanced and working together harmoniously as a unit.
+      link: #
+    - image: pregnant.webp
+      alt: Bulging belly of pregant person
+      texttitle: Pregnancy Care
+      text: >
+        Specializing in the Webster technique to alleviate low back pain, ease comfort during pregnancy and delivery, and even help turn breech babies to the normal position (even twins!).
+    - image: anf.webp
+      alt: 
+      texttitle: Sports and repetitive stress injuries
+      text: >
+        x
+      link: 
+    - image: anf.webp
+      alt: x
+      texttitle: x
+      text: >
+        x
+      link: #
     - image: anf.webp
       alt: 
       texttitle: Amino Neuro Frequency Therapy
@@ -19,37 +42,23 @@ intro:
       text: >
         When it comes to injuries after a car accident, time treatment is of the essence. Permanent damage can occur and scar tissue can develop very quickly; in as little as 48 hours. You may not feel the symptoms right away, especially with the shock of the accident. Get the benefits of early chiropractic care after a car accident rather than wait until you experience severe pain!
       link: /car-accident-rehabilitation
-    - image: skeleton_soccer.webp
-      alt: Cartoon of an X-ray, full skeleton kicking a ball
-      texttitle: Injury and Extremity Care
-      text: >
-        As a certified Chiropractic Extremity Practitioner and Sports Chiropractor, Dr. Gregory works on every moving part, from the spine to your shoulders, knees, and toes, making sure your whole body is balanced and working together harmoniously as a unit.
-      link: #
-    - image: pregnant.webp
-      alt: Bulging belly of pregant person
-      texttitle: Pregnancy Care
-      text: >
-        Specializing in the Webster technique to alleviate low back pain, ease comfort during pregnancy and delivery, and even help turn breech babies to the normal position (even twins!).
     - image: fruit.webp
       alt: Bowl of fruit and vegetable
       texttitle: Nutrition
       text: >
         Better food choices and natural, organic supplements may be needed for better overall health. We provide Nutritional Response Testing℠ for existing patients, once we have gotten your structure and movement back to the way it should be.
 main:
-  heading: Great coffee with no compromises
+  heading: X
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    x
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: x
     image: /img/products-grid3.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
+    alt: x
     image: /img/products-grid2.jpg
   image3:
-    alt: Coffee beans
+    alt: x
     image: /img/products-grid1.jpg
 testimonials:
   - author: K. G. Union City

@@ -9,9 +9,66 @@ footer {
             color: var(--primary);
         }
     }
-    > div {
-        margin: auto auto var(--spacing-large) auto;
+    .schedule {
         max-width: 25em;
+        margin: 0 auto 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        > * {
+            margin: 0;
+        }
+        h3 {
+            font-size: var(--font-size-l);
+        }
+    }
+
+    table {
+        margin: auto;
+        border-collapse: collapse;
+        td, th {
+            padding:2px 5px;
+            white-space: nowrap;
+        } 
+    }
+    @media (width <= 40em) {
+        & {
+            text-align: center;
+        }
+        .schedule + table {
+            display: inline-flex;
+            tr {
+                display: flex;
+                flex-direction: column;
+                th, td {
+                    height: 3em;
+                    flex: 0 0 3em;
+                    text-align: left;
+                    border-top: var(--light-border);
+                    &:last-of-type {
+                        border-bottom: var(--light-border)
+                    }
+                }
+            }
+            
+        }
+    }
+    @media (width > 40em) {
+        .schedule + table {
+            tbody {
+                border-top: var(--light-border)
+            }
+            td, th {
+                border-right: 2px solid;
+                text-align: center;
+                border-collapse: collapse;
+                vertical-align: baseline;
+                &:last-child {
+                    border: none;
+                }
+            }
+        }
     }
     nav {
         display: flex;
@@ -26,18 +83,18 @@ footer {
             flex: 1 0 auto;
             margin-bottom: 1em;
         }
-    }
-    h3 {
-        color: var(--primary);
-        font-size: 1.25rem;
-        margin-bottom: var(--spacing-extra-small);
-        line-height: 1.25;
-        font-weight: var(--bold-font-weight);
+        h3 {
+            color: var(--primary);
+            font-size: 1.25rem;
+            margin-bottom: var(--spacing-extra-small);
+            line-height: 1.25;
+            font-weight: var(--bold-font-weight);
+        }
     }
     .socials {
         margin: -var(--spacing-small); 
         ul {
-            display: flex;
+            display: inline-flex;
             gap: calc(2 * var(--spacing-small));
         }
         li {

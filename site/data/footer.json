@@ -1,4 +1,18 @@
 {
-    "title": "Newsletter subscribe",
-    "blurb": "Get awesome news from us in your inbox every two weeks. Be the first to learn about new products."
+    "title": "Scheduler available 24-7",
+    "blurb": "Appointment times subject to change. Check the online scheduler for the most accurate availability!",
+    "mon1": "8:00 - 12:00",
+    "mon2": "",
+    "tue1": "8:00 - 1:00",
+    "tue2": "3:00 - 7:00",
+    "wed1": "3:00 - 6:00",
+    "wed2": "",
+    "thu1": "8:00 - 1:00",
+    "thu2": "3:00 - 7:00",
+    "fri1": "3:00 - 8:00",
+    "fri2": "",
+    "sat1": "8:00 - 12:00",
+    "sat2": "",
+    "sun1": "Closed",
+    "sun2": ""
 }

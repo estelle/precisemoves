@@ -2,13 +2,13 @@
 	/* Colors */
 	--primary: hsl(16deg 100% 50%);
 	--primaryhover: hsl(106deg 100% 20%);
-	--highlight: rgba(254, 213, 198, 1);
+	--highlight: rgb(254 213 198);
 	--white: rgb(255 255 255);
-	--off-white: rgba(255, 253, 252, 1);
-	--grey-1: rgba(245, 243, 242, 1);
-	--grey-2: rgba(235, 231, 230, 1);
-	--grey-3: rgba(89, 87, 86, 1);
-	--grey-4: rgba(66, 64, 64, 1);
+	--off-white: rgb(255 253 252);
+	--grey-1: rgb(245 243 242);
+	--grey-2: rgb(235 231 230);
+	--grey-3: rgb(89 87 86);
+	--grey-4: rgb(66 64 64);
 	--black: rgb(43 37 35);
 
 	/* Typography */
@@ -35,4 +35,7 @@
 	/* Miscelaneous */
 	--border-radius: .25rem;
 	--hover-transition: all 150ms ease;
+
+	/* borders */
+	--light-border: 0.25px solid var(--grey-1);
 }

@@ -1,12 +1,38 @@
-<div>
 
-	<img src="/img/pmc.png" alt="Precise Moves Chiropractic" class="db w4 center mb4 br0">
-	<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>
+<div class="schedule">
+	<p>
+		<a href="/" title="Precise Moves Chiropractic home page"><img src="/img/pmc.png" alt="Precise Moves Chiropractic"></a>
+	</p>
+	<h3>{{ .Site.Data.footer.title }}</h3>
 	<p>{{ .Site.Data.footer.blurb }}</p>
-
-	{{ partial "newsletter-form" . }}
-
+	<a href="https://www.schedulicity.com/scheduling/PMCPD3P" class="btn-primary">Schedule now</a></p>
 </div>
+<table>
+	<thead>
+		<tr>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+			<th>Saturday</th>
+			<th>Sunday</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{ .Site.Data.footer.mon1 }}<br/>{{ .Site.Data.footer.mon2 }}</td>
+			<td>{{ .Site.Data.footer.tue1 }}<br/>{{ .Site.Data.footer.tue2 }}</td>
+			<td>{{ .Site.Data.footer.wed1 }}<br/>{{ .Site.Data.footer.wed2 }}</td>
+			<td>{{ .Site.Data.footer.thu1 }}<br/>{{ .Site.Data.footer.thu2 }}</td>
+			<td>{{ .Site.Data.footer.fri1 }}<br/>{{ .Site.Data.footer.fri2 }}</td>
+			<td>{{ .Site.Data.footer.sat1 }}<br/>{{ .Site.Data.footer.sat2 }}</td>
+			<td>{{ .Site.Data.footer.sun1 }}<br/>{{ .Site.Data.footer.sun2 }}</td>
+		</tr>
+	</tbody>
+</table>
+
+
 
 <nav>
 
