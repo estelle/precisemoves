@@ -1,9 +1,11 @@
-
+header nav,
+header nav ul ul {
+    background-color: #ededed;
+    border-bottom: 1px solid orangered;
+}
 header nav {
     display: flex;
     justify-content: space-between;
-    background-color: #ededed;
-    border-bottom: 1px solid orangered;
     a {
         text-decoration: none;
     }
@@ -24,14 +26,45 @@ header nav {
     }
     > ul {
         display: flex;
-        a {
+        padding: 1em 8px;
+        > li > a {
             font-weight: bold;
+            padding: var(--spacing-medium);
+        }
+        > li {
+            position: relative;
+            ul {
+                position: absolute;
+                top: 1.3em;
+                left: 0;
+                scale: 1 0;
+                transition: 0.2s;
+                transform-origin: top center;
+                width: min-content;
+            }
+        }
+        > li:hover,
+        > li:focus-within {
+            ul {
+                scale: 1 1;
+                li {
+                    padding: 3px 5px;
+                    border-bottom: solid 1px rgb(0 0 0 / 0.2);
+                }
+                li:hover {
+                    background-color:  rgb(0 0 0 / 0.2);
+                    a {
+                        background-color: transparent;
+                    }
+                }
+                a {
+                    white-space: nowrap;
+                }
+            }
         }
     }
     ul {
-        padding: 1em 8px;
         a {
-            padding: var(--spacing-medium);
             text-decoration: none;
             &:hover {
                 text-decoration: orangered underline 2px;

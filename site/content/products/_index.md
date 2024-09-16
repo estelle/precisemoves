@@ -12,7 +12,7 @@ intro:
       texttitle: Amino Neuro Frequency Therapy
       text: >
         Amino Neuro Frequency Therapy (ANF) is a revolutionary holistic approach to pain, inflammation and dis-ease in the body following nerve paths and systems to find the root cause of a problem and activate the body’s defense system to help with healing.
-      link: #
+      link: /services/anf
     - image: /img/car_accident.webp
       texttitle: Car accident rehabilitation
       akt: Man next to car on side of the road with a flare

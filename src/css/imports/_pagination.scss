@@ -1,0 +1,15 @@
+.pagination-container {
+    float: left;
+    display: inline-flex;
+    padding: var(--spacing-medium);
+    clear: both;
+    .pagination {
+      display: flex;
+    }
+    a {
+      font-size: smaller;
+      color: var(--black);
+      font-weight: var(--bold-font-weight);
+      padding: var(--spacing-small);
+    }
+  }

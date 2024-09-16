@@ -1,0 +1,24 @@
+.section-nav {
+ ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: auto;
+    max-width: calc(var(--section-max) + 50px);
+    li:not(:first-child)::before {
+      content: " | ";
+      white-space: pre;
+      color: var(--primary);
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+        &:hover,
+        &:focus {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+    
+    }
+ }
+}

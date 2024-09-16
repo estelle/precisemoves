@@ -1,28 +1,16 @@
-.blurb-container {
-    background-color: var(--off-white);
-    padding: var(--spacing-large) var(--spacing-medium);
-    h2 {
-        margin: var(--spacing-small) auto;
-        font-weight: bold;
-        font-size: 2.25rem;
-    }
-}
-.blurb-container h2, 
-.blurb-container > p,
+
 .blurbs {
-    max-width: 46rem;
+    max-width:  var(--section-max);
     margin-inline: auto;
-}
-.blurbs {
+    margin-bottom: var(--spacing-medium);
     display: flex;
     flex-flow: row wrap;
     gap: var(--spacing-medium);
-    margin-bottom: var(--spacing-medium);
 }
 
 .blurb {
     margin-bottom: var(--spacing-large);
-    max-width: calc(23rem - (var(--spacing-medium / 2)));
+    max-width: 22.5rem;
     min-width: 14rem;
     h3 {
         font-weight: bold;

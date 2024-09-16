@@ -10,7 +10,7 @@ export default class HomePreview extends React.Component {
     return <div>
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>
 
-      <div className="bg-grey-1 pv4">
+      <div className="subheading">
         <div className="flex-l mhn1-l ph3 center mw7">
           <h2 className="f2 b lh-title mb2 w-40-l">{entry.getIn(["data", "blurb", "heading"])}</h2>
           <p className="w-60-l mb0">{entry.getIn(["data", "blurb", "text"])}</p>
@@ -35,14 +35,14 @@ export default class HomePreview extends React.Component {
         </div>
       </div>
 
-      <div className="bg-grey-1 pv4">
+      <div className="subheading">
         <div className="ph3 mw7 center">
 
           <div className="flex-l mhn2-l">
             <div className="w-40-l ph2-l">
-              <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "values", "heading"])}</h2>
+              <h2 className="f2 b lh-title mb2">{entry.getIn(["data", "techniques", "heading"])}</h2>
 
-              <p>{entry.getIn(["data", "values", "text"])}</p>
+              <p>{entry.getIn(["data", "techniques", "text"])}</p>
             </div>
 
             <div className="w-60-l ph2-l">
